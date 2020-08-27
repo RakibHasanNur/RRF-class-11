@@ -1,0 +1,115 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	color: #5f5f5f;
+}
+ul li {
+	list-style: none;
+}
+/*nav area*/
+/*to get a refarence to the nav trigger about where it would place*/
+
+.trigger span {
+    height: 3px;
+    width: 20px;
+    background: purple;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.trigger {
+	display: none;
+	padding-top: 7px;	
+}
+.container {
+	margin: 0 auto;	
+}
+/*$grid-columns: 12 !default;*/
+a{
+	text-transform: uppercase;
+	color: #5f5f5f;
+}
+.nav-items li{
+		margin-left: 2.5rem;
+}
+.nav-items {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+	/*min-height: 8vh;*/
+	
+}
+.nav-items li a {
+	color: #5e5e5e;
+	font-size: 
+}
+.logo{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	height: 100%;
+}
+
+/*Main text*/
+.row{
+	padding-top: 2.375rem;
+}
+.blog-meta {
+	text-transform: uppercase;
+	padding-top: 1.8125rem;
+}
+h2{
+	padding-bottom: 2.8125rem;
+}
+.blog-box-content{
+	padding-bottom: 2.4375rem;
+	text-align: justify;
+}
+.blog-feture-content img{
+	width: 100%;
+}
+.blog-fetured-content a img{
+	width: 100%;
+}
+
+/*newsletter area*/
+input[type="email"] {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	outline: none;
+	width: 50%;
+	display: inline;
+	background: none;
+}
+form{
+	position: relative;
+}
+button[type="submit"]{
+	outline: none;
+}
+.newsletter-area{
+	background: #f3f3f3;
+	padding: 4.5rem 0;
+}
+.load-more{
+	padding: 4.5rem 0;
+}
+.load-more a{
+	padding: 1rem;
+	border: 1px solid #5d5d5d;
+}
+/*footer area*/
+.footer-tandc{
+	display: flex;
+}
+.footer-links{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 1.375rem;
+}
+.footer-links li, .footer-tandc li{
+	margin-left: 1.375rem;	
+}

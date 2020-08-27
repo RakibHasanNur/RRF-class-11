@@ -1,0 +1,17 @@
+@media screen and (max-width: 1023px) {
+	.nav-items{
+		display: none;
+	}
+
+	.trigger {
+		padding-right: 15px;
+		position: absolute;
+		display: inline-block;
+		bottom: 0;
+		right: 0;
+		}
+
+	.trigger span {
+
+	}
+}
